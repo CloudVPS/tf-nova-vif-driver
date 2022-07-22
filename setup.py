@@ -25,7 +25,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     install_requires=requirements('requirements.txt'),
     entry_points={
-      'vrouter-port-control' : ['tools.vrouter_port_control:main']
+      'vrouter-port-control' : ['tools.vrouter_port_control:main'],
       'os_vif': [
         'contrail_vrouter = vif_plug_contrail_vrouter.vrouter:VrouterPlugin',
         'vrouter = vif_plug_vrouter.vrouter:VrouterPlugin'
